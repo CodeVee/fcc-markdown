@@ -10,3 +10,37 @@ html {
     font-size: 10px;
     line-height: 1.5;
 }
+
+.main {
+    min-height: 100vh;
+    background-color: #87b5b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.editor__wrapper {
+    width: 600px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor__header {
+    height: 2.5rem;
+    background-color: #4aa3a3;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    border: 1px solid #1d2f2f;
+}
+
+.editor__header span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 2rem;
+}
+
+#editor {
+    height: 25rem;
+    background-color: #c0d8d8;
+    padding: 1rem;
+}
