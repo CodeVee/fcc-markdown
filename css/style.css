@@ -34,7 +34,7 @@ html {
     flex-direction: column;
 }
 
-.editor__header {
+.header {
     height: 2.5rem;
     background-color: var(--header-color);
     box-shadow: 1px 1px 10px 2px var(--shadow-color);
@@ -50,5 +50,15 @@ html {
 #editor {
     height: 25rem;
     background-color: var(--area-color);
+    padding: 1rem;
+}
+
+.previewer__wrapper {
+    width: 800px;
+    margin-top: 2rem;
+    background-color: var(--area-color);
+}
+
+#preview {
     padding: 1rem;
 }
