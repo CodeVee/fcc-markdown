@@ -6,6 +6,8 @@ const runPreview = () => {
     preview.innerHTML = marked(text);  
 }
 
+document.addEventListener('DOMContentLoaded', runPreview);
+
 editor.addEventListener('keyup', runPreview)
 
 
