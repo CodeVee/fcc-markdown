@@ -27,7 +27,7 @@ html {
     align-items: center;
 }
 
-.editor__wrapper {
+.editorWrapper {
     width: 600px;
     margin-top: 2rem;
     display: flex;
@@ -53,7 +53,7 @@ html {
     padding: 1rem;
 }
 
-.previewer__wrapper {
+.previewerWrapper {
     width: 800px;
     margin: 3rem 0;
     background-color: var(--area-color);
