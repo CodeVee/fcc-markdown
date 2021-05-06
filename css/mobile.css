@@ -1,29 +1,8 @@
-.main {
-    min-height: 100vh;
-    background-color: var(--bg-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .editorWrapper {
     width: 600px;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-}
-
-.header {
-    height: 2.5rem;
-    background-color: var(--header-color);
-    box-shadow: 1px 1px 10px 2px var(--shadow-color);
-    border: 1px solid var(--border-color);
-}
-
-.header span {
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding-left: 2rem;
 }
 
 #editor {
@@ -33,7 +12,7 @@
 }
 
 .previewerWrapper {
-    width: 800px;
+    width: 600px;
     margin: 3rem 0;
     background-color: var(--area-color);
     overflow-wrap: break-word;
@@ -41,51 +20,5 @@
 
 #preview {
     padding: 1rem;
-    font-size: 1.5rem;
-}
-
-#preview > * {
-    margin: 2rem 0;
-}
-
-#preview blockquote {
-    border-left: 3px solid #224b4b;
-    color: #224b4b;
-    padding-left: 5px;
-    margin-left: 25px;
-}
-
-#preview code {
-    background: white;
-    padding: 1px 4px 2px 4px;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-#preview pre {
-    background: white;
-    padding: 5px 0 5px 5px;
-}
-
-#preview h1 {
-    border-bottom: 2px solid #224b4b;
-}
-
-#preview h2 {
-    border-bottom: 1px solid #224b4b;
-}
-
-#preview table {
-    border-collapse: collapse;
-}
-
-#preview td,
-#preview th {
-    border: 2px solid #224b4b;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-  
-#preview ul, #preview ol {
-    padding: 0 2rem;
+    font-size: 1.2rem;
 }
