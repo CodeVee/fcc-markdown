@@ -4,6 +4,7 @@
     --area-color: #c0d8d8;
     --shadow-color: #3a5f5f;
     --border-color: #1d2f2f;
+    --preview-color: #224b4b;
 }
 
 * {
@@ -70,8 +71,8 @@ html {
 }
 
 #preview blockquote {
-    border-left: 3px solid #224b4b;
-    color: #224b4b;
+    border-left: 3px solid var(--preview-color);
+    color: var(--preview-color);
     padding-left: 5px;
     margin-left: 25px;
 }
@@ -89,11 +90,11 @@ html {
 }
 
 #preview h1 {
-    border-bottom: 2px solid #224b4b;
+    border-bottom: 2px solid var(--preview-color);
 }
 
 #preview h2 {
-    border-bottom: 1px solid #224b4b;
+    border-bottom: 1px solid var(--preview-color);
 }
 
 #preview table {
@@ -102,7 +103,7 @@ html {
 
 #preview td,
 #preview th {
-    border: 2px solid #224b4b;
+    border: 2px solid var(--preview-color);
     padding-left: 5px;
     padding-right: 5px;
 }
