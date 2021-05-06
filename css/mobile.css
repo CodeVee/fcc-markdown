@@ -10,4 +10,8 @@
     .editorWrapper, .previewerWrapper {
         width: 90%;
     }
+
+    #preview code {
+        font-size: 1.1rem;
+    }
 }
