@@ -5,6 +5,7 @@
     --shadow-color: #3a5f5f;
     --border-color: #1d2f2f;
     --preview-color: #224b4b;
+    --code-color: #ffffff;
 }
 
 * {
@@ -78,14 +79,14 @@ html {
 }
 
 #preview code {
-    background: white;
+    background: var(--code-color);
     padding: 1px 4px 2px 4px;
     font-size: 12px;
     font-weight: bold;
 }
 
 #preview pre {
-    background: white;
+    background: var(--code-color);
     padding: 5px 0 5px 5px;
 }
 
