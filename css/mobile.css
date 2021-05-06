@@ -1,15 +1,7 @@
 .editorWrapper {
     width: 600px;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
 }
 
-#editor {
-    height: 25rem;
-    background-color: var(--area-color);
-    padding: 1rem;
-}
 
 .previewerWrapper {
     width: 600px;
@@ -19,6 +11,11 @@
 }
 
 #preview {
-    padding: 1rem;
     font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .editorWrapper {
+        width: 90%;
+    }
 }
