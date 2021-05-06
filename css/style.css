@@ -30,7 +30,7 @@ html {
 }
 
 .editorWrapper {
-    width: 600px;
+    width: 60rem;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@ html {
 }
 
 .previewerWrapper {
-    width: 800px;
+    width: 80rem;
     margin: 3rem 0;
     background-color: var(--area-color);
     overflow-wrap: break-word;
@@ -72,22 +72,22 @@ html {
 }
 
 #preview blockquote {
-    border-left: 3px solid var(--preview-color);
+    border-left: .3rem solid var(--preview-color);
     color: var(--preview-color);
-    padding-left: 5px;
-    margin-left: 25px;
+    padding-left: .5rem;
+    margin-left: 2.5rem;
 }
 
 #preview code {
     background: var(--code-color);
-    padding: 1px 4px 2px 4px;
-    font-size: 12px;
+    padding: .2rem .4rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 #preview pre {
     background: var(--code-color);
-    padding: 5px 0 5px 5px;
+    padding: .5rem;
 }
 
 #preview h1 {
@@ -105,8 +105,7 @@ html {
 #preview td,
 #preview th {
     border: 2px solid var(--preview-color);
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0 .5rem;
 }
   
 #preview ul, #preview ol {
