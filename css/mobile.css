@@ -1,13 +1,5 @@
-.editorWrapper {
-    width: 600px;
-}
-
-
 .previewerWrapper {
     width: 600px;
-    margin: 3rem 0;
-    background-color: var(--area-color);
-    overflow-wrap: break-word;
 }
 
 #preview {
@@ -15,7 +7,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .editorWrapper {
+    .editorWrapper, .previewerWrapper {
         width: 90%;
     }
 }
